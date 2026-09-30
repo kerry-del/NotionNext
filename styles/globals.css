@@ -330,3 +330,10 @@ img {
   @keyframes l1 {
   0% {background-position: right}
 }
+/* 给 Simple 主题顶部头像区域添加背景图 */
+#theme-simple header {
+  background-image: url('/bg_image.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
